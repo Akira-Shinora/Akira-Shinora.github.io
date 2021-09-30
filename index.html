@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Akira Shinora</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+  <header>
+    <h1>作曲家 アキラ・シノラ</h1>
+    <h2>Composer: Akira Shinora</h2>
+    <div id="descBtn">このサイトについて</div>
+    <div id="pieceListBtn"><a href="#pieceList">楽曲一覧へ</a></div>
+  </header>
+  
+  
+  <div id="description" class="hidden">
+    <p>アキラ・シノラの曲は、楽器を習っている人も楽しめる小曲です（３分程度の曲が多いです）。</p>
+    <p>このサイトでは、それぞれの曲を再生したり、伴奏だけを再生したりできます。曲のタイトルや画像をクリックすると再生ボタンが表示されます。</p>
+    <p>楽譜（スコアとパート譜）は楽譜サイト Piascore で購入できます。お友達と一緒に演奏したり、この伴奏音源に合わせて演奏したりして、お楽しみください。</p>
+    <p>There are short music pieces composed by Akira Shinora. You can listen to music and accompaniment sound on this website. Please click the title or image to pisplay the play buttons. You can by the score and part-scores on the website "Piascore".  Please enjoy playing with your friends or accompaniment sounds.</p>
+    <button id="descReturn">戻る (return)</button>
+  </div>
+  
+  <nav>
+    <ul>
+      <li><a href="#flutePiano">フルートとピアノ  Flute & Piano</a></li>
+      <li><a href="#celloPiano">チェロとピアノ  Cello & Piano</a></li>
+      <li><a href="#violaPiano">ヴィオラとピアノ  Viola & Piano</a></li>
+      <li><a href="#fluteGuitar">フルートとギター  Flute & Guitar</a></li>
+    </ul>    
+  </nav>
+
+  <section id="flutePiano">
+    <h1>フルートとピアノのための小曲</h2>
+    <h3>A short music piece for flute & piano</h3>
+    <ul id="flutePianoUl"></ul>
+  </section>
+
+  <section id="celloPiano">
+    <h1>チェロとピアノのための小曲</h2>
+    <h3>A short music piece for Cello & Piano</h3>
+    <ul id="celloPianoUl"></ul>
+  </section>
+  
+  <section id="violaPiano">
+    <h1>ヴィオラとピアノのための小曲</h2>
+    <h3>A short music piece for Viola & Piano</h3>
+    <ul id="violaPianoUl"></ul>    
+  </section>
+  
+  <!-- <section id="fluteGuitar">
+    <h1>フルートとギターのための小曲</h2>
+    <h3>A short music piece for Flute & Guitar</h3>
+    <ul id="fluteGuitarUl"></ul>
+  </section> -->
+
+  <section id="pieceList">
+    <h1>楽曲一覧  piece List</h2>
+    <table id="pieceTable">
+      <thead>
+        <tr>
+          <th>番号 (op)</th>
+          <th>曲名 (title)</th>
+          <th>楽器 (instrument)</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+  </section>
+
+  <footer>
+    <small>(c) Akira Shinora</small>
+  </footer>
+
+  <script src="js/main.js"></script>  
+</body>
+</html>
