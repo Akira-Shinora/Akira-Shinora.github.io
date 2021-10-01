@@ -121,7 +121,8 @@ nav a {
   border: sandybrown 1px solid;
   border-radius: 4px;
   padding: 4px;
-  width: 200px;
+  text-align: center;
+  width: 244px;
   /* height: 28px; */
   /* line-height: 28px; */
   /* text-align: center; */
@@ -140,7 +141,7 @@ nav a {
   position: absolute;
   background: #efefef;
   padding: 8px;
-  width: 85%;
+  width: 90%;
   border-radius: 4px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   font-size: 12px;
@@ -205,11 +206,11 @@ section h3 {
 }
 
 section h1 {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 section h3 {
-  font-size: 14px;  
+  font-size: 12px;  
 }
 
 section ul {
@@ -303,13 +304,23 @@ section li button {
 
 #pieceList h1 {
   padding: 8px;
+  text-align: left;
+  margin-bottom: 8px;
+  color: darkblue;
+}
+
+#pieceList table {
+  background-color: #ddd;
+  margin: 0 auto;
 }
 
 #pieceList table, th, td {
   border: 1px rgba(0, 0, 0, 0.4) solid;
   border-collapse: collapse;
   padding-left: 6px;
-  padding-right: 4px;
+  padding-right: 6px;
+  font-size: 14px;
+  color: firebrick;
 }
 
 #pieceList td a {
@@ -317,17 +328,23 @@ section li button {
   cursor: pointer; 
 }
 #pieceList td a:hover {
-  background: skyblue;
+  background: #fff;
 }
 
 footer {
   text-align: center;
+  margin-top: 16px;
   margin-bottom: 16px;
 }
 
 /* メディアクエリ */
 
 @media (min-width: 400px) {
+  #foreword p {
+    margin-left: 16px;
+  }
+
+
   section ul {
     width: auto;
     display: flex;
@@ -337,6 +354,10 @@ footer {
 
   section li {
     margin: 0 24px 40px 8px;
+  }
+
+  #pieceList h1 {
+    text-align: center;
   }
 
 }
