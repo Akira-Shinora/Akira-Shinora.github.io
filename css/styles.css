@@ -126,6 +126,7 @@ nav a {
   /* line-height: 28px; */
   /* text-align: center; */
   margin-left: 8px;
+  margin-top: 8px;
   cursor: pointer;
 }
 
@@ -170,11 +171,37 @@ section {
   height: 72px;
 }
 
+.sectionTitle {
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 100%;
+  margin-bottom: 28px;
+  padding: 4px 0;
+}
+
+.fpTitle {
+  background-color: plum;
+}
+
+.cpTitle {
+  background-color: royalblue;
+}
+
+.vapTitle {
+  background-color: salmon;
+}
+
+.fgTitle {
+  background: skyblue;
+}
+
 section h1,
 section h3 {
   margin: 0;
   padding: 0;
   margin-left: 8px;
+  text-align: center;
 }
 
 section h1 {
@@ -183,7 +210,6 @@ section h1 {
 
 section h3 {
   font-size: 14px;  
-  margin-bottom: 28px;
 }
 
 section ul {
@@ -205,7 +231,7 @@ section li h2 {
   font-size: 16px;
 }
 
-section h2:hover {
+section li h2:hover {
   cursor: pointer;
 }
 
@@ -229,46 +255,45 @@ section p {
 
 /* 再生ボタンなど */
 
-section div {
+section li div {
   border: darkblue 1px solid;
   border-radius: 4px;
   padding: 10px;
   width: 300px;
 }
 
-section div.hidden {
+section li div.hidden {
   display: none;
 }
 
-section div h3 {
+section li h3 {
   font-size: 16px;
   text-align: center;
 }
 
-section div figure {
+section li figure {
   margin: 0;  
 }
 
-section div figcaption {
+section li figcaption {
   font-size: 14px;
 }
 
-section div audio {
+section li audio {
   margin-bottom: 8px;
 }
 
-section div a {
+section li a {
   text-decoration: none;
 }
 
-section div button {
+section li button {
   margin-right: 5px;
   margin-bottom: 5px;
-}
-
-section button {
   cursor: pointer;
 }
+
+
 
 /* 楽曲一覧 */
 

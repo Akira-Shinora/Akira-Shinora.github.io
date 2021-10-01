@@ -19,6 +19,15 @@
   // コンテンツ(演奏楽器別)
 
   const fpContents = [
+    // {
+    //   op: "",
+    //   img: "",
+    //   alt: "",
+    //   comment: "",
+    //   mp3A: "",
+    //   mp3B: "",
+    //   piascore: "",
+    // },
     {
       op: "10",
       img: "img/10 thumbnail  Hop in grassland.png",
@@ -49,6 +58,15 @@
   ];
 
   const cpContents = [
+    // {
+    //   op: "",
+    //   img: "",
+    //   alt: "",
+    //   comment: "",
+    //   mp3A: "",
+    //   mp3B: "",
+    //   piascore: "",
+    // },
     {
       op: "11",
       img: "img/11 thumb new scenery.png",
@@ -88,6 +106,15 @@
   ];
 
   const vapContents = [
+    // {
+    //   op: "",
+    //   img: "",
+    //   alt: "",
+    //   comment: "",
+    //   mp3A: "",
+    //   mp3B: "",
+    //   piascore: "",
+    // },
     {
       op: "03",
       img: "img/03 thumbnail (viola nocturne).png",
@@ -98,6 +125,19 @@
       piascore: "https://store.piascore.com/scores/109474",
     },
   ];
+
+  // const fgContents = [
+  //   {
+  //     op: "15",
+  //     img: "",
+  //     alt: "",
+  //     comment: "",
+  //     mp3A: "",
+  //     mp3B: "",
+  //     piascore: "",
+  //   },
+
+  // ];
 
 
   // 演奏楽器別のコンテンツ配置
