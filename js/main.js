@@ -87,7 +87,7 @@
     }
   ];
 
-  const vpContents = [
+  const vapContents = [
     {
       op: "03",
       img: "img/03 thumbnail (viola nocturne).png",
@@ -194,7 +194,7 @@
   
   setList(fpContents, "フルート＆ピアノ  Flute & Piano", "ピアノ伴奏  Piano Part", 'flutePianoUl');  
   setList(cpContents, "チェロ＆ピアノ  Cello & Piano", "ピアノ伴奏  Piano Part", 'celloPianoUl');  
-  setList(vpContents, "ヴィオラ＆ピアノ  Viola & Piano", "ピアノ伴奏  Piano Part", 'violaPianoUl');
+  setList(vapContents, "ヴィオラ＆ピアノ  Viola & Piano", "ピアノ伴奏  Piano Part", 'violaPianoUl');
 
 
   // 楽曲一覧
