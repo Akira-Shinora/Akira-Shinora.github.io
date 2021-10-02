@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background: #efefef;
   /* position: relative; */
 }
 
@@ -88,7 +89,7 @@ nav li:hover {
 
 nav a {
   font-size: 12px;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 #pieceListBtn {
@@ -104,7 +105,7 @@ nav a {
 /* ポジション */
 main, footer {
   position: relative;
-  top: 150px;
+  top: 140px;
 }
 
 /* section {
@@ -117,12 +118,11 @@ main, footer {
 #foreword {
   margin: 0;
   padding: 0;
-  margin-top: 16px;
-  /* margin-bottom: 48px; */
-  padding: 8px;
+  padding-bottom: 20px;
+  background: no-repeat center/100% url("../img/IMGP0104 light2.JPG");
 }
 
-#foreword div {
+#foreword > div {
   margin-bottom: 4px;
 }
 
@@ -132,6 +132,11 @@ main, footer {
   font-size: 12px;
   margin: 0;
   padding: 0;
+  margin-left: 6px;
+}
+
+#forewordJ {
+  padding-top: 16px;
 }
 
 #descBtn {
@@ -187,7 +192,7 @@ main, footer {
 section {
   margin: 0 auto 0;
   padding: 0;
-  margin-top: 48px;
+  margin-top: 32px;
 }
 
 .tag {
@@ -217,14 +222,14 @@ section {
 }
 
 .fgTitle {
-  background: rgb(96, 212, 187);
+  background: rgb(96, 195, 212);
 }
 
 section h1,
 section h3 {
   margin: 0;
   padding: 0;
-  margin-left: 8px;
+  /* margin-left: 8px; */
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -285,7 +290,7 @@ section p {
 section li div {
   /* border: darkblue 1px solid; */
   background: rgb(138, 185, 187);
-  border-radius: 12px;
+  border-radius: 0 0 28px 28px;
   padding: 10px;
   width: 250px;
 }
