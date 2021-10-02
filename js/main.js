@@ -29,6 +29,15 @@
     //   piascore: "",
     // },
     {
+      op: "08",
+      img: "img/08 thumb Beautiful suspect.png",
+      alt: "美しい逃亡者 (Beautiful suspect)",
+      comment: "ギルティなのかそうでないのか。ミステリアスな逃避行。",
+      mp3A: "MP3/op.8  Beautiful suspect ... flute & piano.mp3",
+      mp3B: "MP3/op.8  Beautiful suspect ... flute & piano-Piano.mp3",
+      piascore: "",
+    },
+    {
       op: "10",
       img: "img/10 thumbnail  Hop in grassland.png",
       alt: "はらっぱほっぷ (Hop in grassland)",
@@ -231,7 +240,7 @@
     tbody.appendChild(tr);
   }
   
-  setList(fpContents, "フルート＆ピアノ  Flute & Piano", "ピアノ伴奏  Piano Part", 'flutePianoUl');  
+  setList(fpContents, "フルート＆ピアノ  Flute & Piano", "ピアノ伴奏  Piano Part", 'flutePianoUl');
   setList(cpContents, "チェロ＆ピアノ  Cello & Piano", "ピアノ伴奏  Piano Part", 'celloPianoUl');  
   setList(vapContents, "ヴィオラ＆ピアノ  Viola & Piano", "ピアノ伴奏  Piano Part", 'violaPianoUl');
   setList(fgContents, "フルート＆ギター  Flute & Guitar", "ギター伴奏  Guitar Part", 'fluteGuitarUl');
@@ -244,6 +253,7 @@
   makeTr('05', "soar into the air", 'flute & piano');
   makeTr('06', "on the water surface", 'flute & piano');
   makeTr('07', "Bloom in secret", 'cello & piano');
+  makeTr('08', "美しい逃亡者 (Beautiful suspect)", 'flute & piano');
   makeTr('09', "in the highlands", 'cello & piano');
   makeTr('10', "はらっぱほっぷ (Hop in grassland)", 'flute & piano');
   makeTr('11', "new scenery", 'cello & piano');
