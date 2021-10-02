@@ -163,7 +163,7 @@
     buttonPia = document.createElement('button');
     const anchor = document.createElement('a');
     anchor.target = "_blank";
-    anchor.textContent = "楽譜購入はPiascoreへ (to score shop)";
+    anchor.textContent = "楽譜は Piascore へ (to score shop)";
     anchor.href = pia;
     buttonPia.appendChild(anchor);
   }
@@ -172,15 +172,15 @@
     for (let i = 0; i < contents.length; i++) {
       const li = document.createElement('li');
       li.id = contents[i].op;
-      
-      const title = document.createElement('h2');
-      title.textContent = contents[i].alt;
-      li.appendChild(title);
 
       image = document.createElement('img');
       image.src = contents[i].img;
       image.alt = contents[i].alt;
       li.appendChild(image);
+      
+      // const title = document.createElement('h2');
+      // title.textContent = contents[i].alt;
+      // li.appendChild(title);
       
       const p = document.createElement('p');
       p.textContent = contents[i].comment;
