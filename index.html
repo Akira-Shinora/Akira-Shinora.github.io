@@ -8,116 +8,121 @@
 
 </head>
 <body>
-
+  
   <header>    
+    <div id="composer">
+      <h1>アキラ・シノラ の music pieces</h1>
+      <h2>music pieces composed by Akira Shinora</h2>
+    </div>
     <nav>
       <ul>
         <li><a href="#fp">Flute & Piano</a></li>
         <li><a href="#cp">Cello & Piano</a></li>
         <li><a href="#vap">Viola & Piano</a></li>
         <li><a href="#fg">Flute & Guitar</a></li>
-        <li id="pieceListBtn"><a href="#list">楽曲一覧 piece list</a></li>
+        <li id="pieceListBtn"><a href="#list">楽曲一覧 List</a></li>
       </ul>
     </nav>
     
-    <div ></div>
   </header>
-  
-  
-  <div id="underHeader"></div>
-  
-  <div id="composer">
-    <h1>アキラ・シノラ の music pieces</h1>
-    <h2>music pieces composed by Akira Shinora</h2>
-  </div>
-  
-  <div id="foreword">
-    <div>
-      <p>器楽曲はお好きですか？</p>
-      <p>楽器を奏でるのはお好きですか？</p>
-      <p>３分ぐらいの小曲たちです。</p>
-      <p>伴奏だけ鳴らすこともできます。</p>
-    </div>
-    <div>
-      <p>Do you like instrumental music?</p>
-      <p>Do you like to play music instrument?</p>
-      <p>These are short music pieces (about 3 minutes music).You can listen to music and accompaniment sound.</p>
-    </div> 
-    
-    <div id="descBtn">このサイトの使い方 How to use this site </div>
 
-    <div id="description" class="hidden">
-      <p>曲のタイトルや画像をクリックすると、再生ボタンや楽譜サイトが表示されます。</p>
-      <p>再生ボタン（▶）をクリックして、曲を再生したり、伴奏だけを再生したりできます。</p>
-      <p>楽譜（スコアとパート譜）は楽譜サイト Piascore で購入できます。お友達と一緒に演奏したり、この伴奏音源に合わせて演奏したりして、お楽しみください。</p>
-      <p>Please click a piece title or image to pisplay play buttons and URL of score shop. You can listen to music and accompaniment sound. You can buy scores and part-scores on the website "Piascore".  Please enjoy playing music instrument with your friends or accompaniment sounds.</p>
-      <button id="descReturn">閉じる (close)</button>
-    </div>
-  </div>
+  <!-- <div id="underHeader"></div> -->
   
-  
-
-  <div id="fp" class="tag"></div>
-
-  <section id="flutePiano">
-    <div class="sectionTitle fpTitle">
-      <h1>フルートとピアノのための小曲</h2>
-      <h3>short music pieces for flute & piano</h3>
-    </div>
-    <ul id="flutePianoUl"></ul>
-  </section>
-
-  <div id="cp" class="tag"></div>
-
-  <section id="celloPiano">
-    <div class="sectionTitle cpTitle">
-      <h1>チェロとピアノのための小曲</h2>
-      <h3>short music pieces for Cello & Piano</h3>
-    </div>
-    <ul id="celloPianoUl"></ul>
-  </section>
-    
-  <div id="vap" class="tag"></div>
-    
-  <section id="violaPiano">
-    <div class="sectionTitle vapTitle">
-      <h1 id="vaph">ヴィオラとピアノのための小曲</h2>
-      <h3>A short music piece for Viola & Piano</h3>
-    </div>
-    <ul id="violaPianoUl"></ul>    
-  </section>
+  <main>    
+    <div id="foreword">
+      <div>
+        <p>器楽曲はお好きですか？</p>
+        <p>楽器を奏でるのはお好きですか？</p>
+        <p>３分ぐらいの小曲たちです。</p>
+        <p>伴奏だけ鳴らすこともできます。</p>
+      </div>
+      <div>
+        <p>Do you like instrumental music?</p>
+        <p>Do you like to play music instrument?</p>
+        <p>These are short music pieces (about 3 minutes music).You can listen to music and accompaniment sound.</p>
+      </div> 
       
-  <div id="fg" class="tag"></div>
+      <div id="descBtn">
+        このサイトの使い方 How to use this site 
+      </div>
       
-  <!-- <section id="fluteGuitar">
-    <div class="sectionTitle fgTitle">
-      <h1>フルートとギターのための小曲</h2>
-      <h3>A short music piece for Flute & Guitar</h3>
+      <div id="description" class="hidden">
+        <p>曲のタイトルや画像をクリックすると、再生ボタンや楽譜サイトが表示されます。</p>
+        <p>再生ボタン（▶）をクリックして、曲を再生したり、伴奏だけを再生したりできます。</p>
+        <p>楽譜（スコアとパート譜）は楽譜サイト Piascore で購入できます。お友達と一緒に演奏したり、この伴奏音源に合わせて演奏したりして、お楽しみください。</p>
+        <p>Please click a piece title or image to pisplay play buttons and URL of score shop. You can listen to music and accompaniment sound. You can buy scores and part-scores on the website "Piascore".  Please enjoy playing music instrument with your friends or accompaniment sounds.</p>
+        <button id="descReturn">閉じる (close)</button>
+      </div>
     </div>
-    <ul id="fluteGuitarUl"></ul>
-  </section> -->
     
-  <div id="list" class="tag"></div>
-
-  <section id="pieceList">
-    <h1>楽曲一覧  piece List</h2>
-    <table id="pieceTable">
-      <thead>
-        <tr>
-          <th>番号 (op)</th>
-          <th>曲名 (title)</th>
-          <th>楽器 (instrument)</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-
-  </section>
-
+    
+    
+    <div id="fp" class="tag"></div>
+    
+    <section id="flutePiano">
+      <div class="sectionTitle fpTitle">
+        <h1>フルートとピアノのための小曲</h2>
+          <h3>short music pieces for flute & piano</h3>
+        </div>
+        <ul id="flutePianoUl"></ul>
+      </section>
+      
+    <div id="cp" class="tag"></div>
+    
+    <section id="celloPiano">
+      <div class="sectionTitle cpTitle">
+        <h1>チェロとピアノのための小曲</h2>
+          <h3>short music pieces for Cello & Piano</h3>
+        </div>
+        <ul id="celloPianoUl"></ul>
+    </section>
+      
+    <div id="vap" class="tag"></div>
+      
+    <section id="violaPiano">
+      <div class="sectionTitle vapTitle">
+        <h1 id="vaph">ヴィオラとピアノのための小曲</h2>
+          <h3>A short music piece for Viola & Piano</h3>
+        </div>
+        <ul id="violaPianoUl"></ul>    
+    </section>
+        
+    <div id="fg" class="tag"></div>
+          
+    <!-- <section id="fluteGuitar">
+      <div class="sectionTitle fgTitle">
+        <h1>フルートとギターのための小曲</h2>
+        <h3>A short music piece for Flute & Guitar</h3>
+      </div>
+        <ul id="fluteGuitarUl"></ul>
+    </section> -->
+        
+    <div id="list" class="tag"></div>
+            
+    <section id="pieceList">
+      <h1>楽曲一覧  piece List</h2>
+      <table id="pieceTable">
+        <thead>
+          <tr>
+            <th>番号 (op)</th>
+            <th>曲名 (title)</th>
+            <th>楽器 (instrument)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>      
+    </section>
+    
+  </main>
+  
+  
+  
+  
+  
   <footer>
     <small>(c) Akira Shinora</small>
   </footer>
-
+  
   <script src="js/main.js"></script>  
 </body>
 </html>
