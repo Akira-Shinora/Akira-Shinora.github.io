@@ -126,18 +126,17 @@
     },
   ];
 
-  // const fgContents = [
-  //   {
-  //     op: "15",
-  //     img: "",
-  //     alt: "",
-  //     comment: "",
-  //     mp3A: "",
-  //     mp3B: "",
-  //     piascore: "",
-  //   },
-
-  // ];
+  const fgContents = [
+    {
+      op: "15",
+      img: "img/IMGP0086 ｾﾝﾄ･ｼﾞｮﾝｽﾞ･ｶﾚｯｼﾞ wide.jpg",
+      alt: "",
+      comment: "時が経っても、遠く離れても",
+      mp3A: "MP3/op.15  ... flute & guitar.mp3",
+      mp3B: "MP3/op.15  ... flute & guitar-クラシックギター.mp3",
+      piascore: "",
+    },
+  ];
 
 
   // 演奏楽器別のコンテンツ配置
@@ -235,6 +234,7 @@
   setList(fpContents, "フルート＆ピアノ  Flute & Piano", "ピアノ伴奏  Piano Part", 'flutePianoUl');  
   setList(cpContents, "チェロ＆ピアノ  Cello & Piano", "ピアノ伴奏  Piano Part", 'celloPianoUl');  
   setList(vapContents, "ヴィオラ＆ピアノ  Viola & Piano", "ピアノ伴奏  Piano Part", 'violaPianoUl');
+  setList(fgContents, "フルート＆ギター  Flute & Guitar", "ギター伴奏  Guitar Part", 'fluteGuitarUl');
 
 
   // 楽曲一覧
@@ -247,6 +247,7 @@
   makeTr('09', "in the highlands", 'cello & piano');
   makeTr('10', "はらっぱほっぷ (Hop in grassland)", 'flute & piano');
   makeTr('11', "new scenery", 'cello & piano');
+  makeTr('15', "(未定)", 'flute & guitar');
 
   
   

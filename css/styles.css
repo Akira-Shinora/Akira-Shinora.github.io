@@ -19,12 +19,12 @@ header {
 }
 
 #composer {
-  background: no-repeat center/100% url("../img/sky 2.jpg");
+  background: no-repeat center/100% url("../img/IMGP0104.JPG");
   margin: 0;
   padding: 0;
   /* border-bottom: 1px solid #ddd; */
   width: 100%;
-  height: 140px;
+  height: 150px;
   font-weight: bold;
   
   position: fixed;
@@ -60,7 +60,7 @@ nav {
 
   position: fixed;
   z-index: 3;
-  top: 88px;
+  top: 100px;
 }
 
 nav ul {
@@ -78,12 +78,12 @@ nav li {
   border-radius: 4px;
   padding: 0 4px;
   width: 48px;
-  background: rgb(187, 248, 126);
+  background: rgb(217, 248, 130);
   user-select: none;
 }
 
 nav li:hover {
-  background: chartreuse;
+  background: rgb(179, 250, 98);
 }
 
 nav a {
@@ -102,9 +102,9 @@ nav a {
 }
 
 /* ポジション */
-main {
+main, footer {
   position: relative;
-  top: 140px;
+  top: 150px;
 }
 
 /* section {
@@ -118,7 +118,7 @@ main {
   margin: 0;
   padding: 0;
   margin-top: 16px;
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
   padding: 8px;
 }
 
@@ -187,7 +187,12 @@ main {
 section {
   margin: 0 auto 0;
   padding: 0;
-  margin-bottom: 36px;
+  margin-top: 48px;
+}
+
+.tag {
+  position: relative;
+  top: -160px;
 }
 
 .sectionTitle {
@@ -196,19 +201,19 @@ section {
   border: none;
   width: 100%;
   margin-bottom: 28px;
-  padding: 4px 0;
+  padding: 6px 0;
 }
 
 .fpTitle {
-  background-color: plum;
+  background-color: rgba(226, 178, 226, 0.993);
 }
 
 .cpTitle {
-  background-color: royalblue;
+  background-color: rgb(148, 124, 253);
 }
 
 .vapTitle {
-  background-color: salmon;
+  background-color: rgb(248, 159, 149);
 }
 
 .fgTitle {
@@ -221,10 +226,12 @@ section h3 {
   padding: 0;
   margin-left: 8px;
   text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 section h1 {
   font-size: 16px;
+  font-weight: bold;
 }
 
 section h3 {
@@ -242,7 +249,7 @@ section ul {
 /* 各曲 */
 
 section li {
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
 /* section li h2 {
@@ -318,6 +325,10 @@ section li button {
   cursor: pointer;
 }
 
+.prepare {
+  margin-left: 20px;
+}
+
 
 
 /* 楽曲一覧 */
@@ -343,7 +354,7 @@ section li button {
   border-collapse: collapse;
   padding-left: 6px;
   padding-right: 6px;
-  font-size: 14px;
+  font-size: 12px;
   color: firebrick;
 }
 
@@ -354,6 +365,8 @@ section li button {
 #pieceList td a:hover {
   background: #fff;
 }
+
+/* フッター */
 
 footer {
   text-align: center;
