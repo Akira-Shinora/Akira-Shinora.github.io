@@ -179,7 +179,11 @@
   function setList(contents, text1, text2, listname) {
     for (let i = 0; i < contents.length; i++) {
       const li = document.createElement('li');
-      li.id = contents[i].op;
+
+      const tagDiv = document.createElement('div');
+      tagDiv.id = contents[i].op;
+      tagDiv.classList.add('liTag');
+      li.appendChild(tagDiv);
 
       image = document.createElement('img');
       image.src = contents[i].img;
@@ -195,6 +199,7 @@
       li.appendChild(p);
 
       const div = document.createElement('div');
+      div.classList.add('audio');
       div.classList.add('hidden');
       
       makeAudio(text1, contents[i].mp3A); 

@@ -257,14 +257,10 @@ section li {
   margin-bottom: 24px;
 }
 
-/* section li h2 {
-  margin: 0;
-  font-size: 14px;
-  /* width: 250px;  } */ 
-
-/* section li h2:hover {
-  cursor: pointer;
-} */
+section li .liTag {
+  position: relative;
+  top: -160px;
+}
 
 section img {
   width: 270px;
@@ -272,10 +268,6 @@ section img {
   /* opacity: 0.7; */
   cursor: pointer;
 }
-
-/* section img:hover {
-  opacity: 1;
-} */
 
 section p {
   margin: 0;
@@ -287,7 +279,7 @@ section p {
 
 /* 再生ボタンなど */
 
-section li div {
+section li .audio {
   /* border: darkblue 1px solid; */
   background: rgb(138, 185, 187);
   border-radius: 0 0 28px 28px;
@@ -295,7 +287,7 @@ section li div {
   width: 250px;
 }
 
-section li div.hidden {
+section li .hidden {
   display: none;
 }
 
