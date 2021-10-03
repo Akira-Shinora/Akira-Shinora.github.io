@@ -35,7 +35,7 @@
       comment: "ギルティなのかそうでないのか。ミステリアスな逃避行。",
       mp3A: "MP3/op.8  Beautiful suspect ... flute & piano.mp3",
       mp3B: "MP3/op.8  Beautiful suspect ... flute & piano-Piano.mp3",
-      piascore: "",
+      piascore: "https://store.piascore.com/scores/117996",
     },
     {
       op: "10",
