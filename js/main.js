@@ -111,7 +111,7 @@
       mp3A: "MP3/op.4  Canal in the night ...  Cello & Piano.mp3",
       mp3B: "MP3/op.4  Canal in the night ...  Piano.mp3",
       piascore: "https://store.piascore.com/scores/110172",
-    }
+    },
   ];
 
   const vapContents = [
